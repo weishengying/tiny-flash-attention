@@ -1,2 +1,3 @@
-# tiny-flash-attention
-使用 cutlass 实现 flash-attention 精简版，具有教学意义
+本实现是在 https://github.com/66RING/tiny-flash-attention.git 基础上做了一些是实现上的代码简化，如去掉了一些不必要的冗余定义、简化shared memory cute layout 定义等
+
+![测试](./benchmark.png)
